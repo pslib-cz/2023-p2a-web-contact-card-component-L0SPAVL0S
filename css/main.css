@@ -1,0 +1,77 @@
+:root {
+    --Light: rgb(241, 241, 241);
+    --shadow: gray;
+    --dark: rgb(26, 26, 26);
+
+}
+
+body{
+    background-image: url(../img/bg.webp);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.zarovnani{
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card{
+    background-color: var(--Light);
+    width: 24em;
+    /* display: inline-block; */
+    margin: 0.5em;
+    margin-top: 7em;
+    box-shadow: 0.2em 0.2em 0.2em var(--shadow);
+    
+    
+    
+}
+
+.card__photo{
+    width: 12em;
+    height: 12em;
+    border-radius: 50%;
+    overflow: hidden;
+    
+    /* padding: auto; */
+    margin: auto;
+    margin-top: -6em;
+    border: 0.2em solid var(--Light);
+    box-shadow: 0.2em 0.2em 0.2em var(--shadow);
+}
+
+.profilovka{
+    width: 100%;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    /* margin-top: -1em; */
+    
+}
+
+.block{
+    /* padding-top: 5em; */
+    /* margin-top: -3em; */
+    /* margin-top: -4em; */
+    padding: 1.5em;
+    font-family:monospace;
+    color: var(--dark);
+}
+
+.space{
+    height: 2em;
+    background-color: rgba(255, 0, 0, 0);
+}
+
+.info{
+    border-top: 0.1em solid var(--dark);
+    font-size: 1.5em;
+}
+
+.heading--h2{
+    font-size: 1.6em;
+    font-weight: bold;
+}
+
